@@ -1,0 +1,94 @@
+
+<form name= "ATTESTATION DE NONPAIEMENT" accept-charset="UTF-8" method="POST" role="form">
+  <p>Pour pouvoir établir et estimer cette mission, j’ai besoin des renseignements ci-dessous :</p>
+  <span for=”name”> Votre Nom <span style="color: red;">*</span></span>      <input name="Nom" type="text" value="" />
+  <br><br>
+  <label for=”prenom”>Votre Prénom <span style="color: red;">*</span></label>
+    <input name="Prénom" type="text" value="" />
+  <br> <br>
+   Date de départ <span style="color: red;">*</span> <input type="date" name="Date_départ" value="" />
+  <br> <br>
+Date de retour <span style="color: red;">*</span> <input type="date" name="Date_retour">
+<br> <br>
+  <label for=”message”> Heure de départ </label>
+   <input name="Heure_départ" type="text" value="" />
+<br> <br>
+  <label for=”message”>Heure de retour</label>
+<input name="Heure_retour" type="text" value="" /> <br> <br>
+  <label for=”message”>Moyen de locomotion 1</label>
+  <select name="moyen" id="moyen-select">
+    <option value="">Véhicule personnel</option>
+    <option value="SNCF">SNCF</option>
+    <option value="AVION">AVION</option>
+    <option value="Location">Location véhicule</option>
+    <option value="Autre">Autre (préciser)</option>
+</select>
+  <br> <br>
+  <label for=”moyen”>Si autre moyen de locomotion 1</label>
+  <input name="Cout de moyen de locomotion 1" type="text" />
+  <br> <br>
+  <label for=”moyen”>Si autre moyen de locomotion 2</label>
+  <input name="Cout de moyen de locomotion 2" type="text" />
+    <br> <br>
+  <label for=”message”>Si voiture personnel</label>
+  <textarea id=”message” name=”message” placeholder = "préciser lequel ? si nouveau véhicule joindre carte grise + attestation assurance" aria-labelledby=”message”></textarea>
+ <br><br>
+ <label for=”moyen”>Si autre moyen de locomotion </label>
+ <input name="Cout de moyen de locomotion"placeholder = "Précisez lequel" type="text" />
+   <br> <br>
+   <label for=”moyen”>Inscription conférence ou colloque </label>
+   <input name="Inscription"placeholder = "Montant en euros" type="text" />
+     <br> <br>
+     <label for=”moyen”>Nombre de nuit d'hôtel (en France) </label>
+     <input name="nombre_nuit" type="text" />
+       <br> <br>
+       <label for=”moyen”>Nombre de repas </label>
+       <input name="nombre_repas" type="text" />
+         <br> <br>
+         <label for=”moyen”>Estimation hébergement et repas (à l'étranger) </label>
+         <input name="estimation_hébegement" placeholder="Montant en euros" type="text" />
+
+             <br> <br>
+             <label for=”moyen”>Autres dépenses à prévoir (tickets péage, taxi, etc?) </label>
+             <textarea name="estimation_hébegement" type="message"></textarea>
+               <br> <br>
+               <label for=”moyen”>Total estimé des frais <span style="color: red;">*</span> </label>
+               <textarea name="estimation_hébegement" placeholder="Rentrez le total estimé des frais de votre déplacement" type="text" ></textarea>
+                 <br> <br>
+  Remarque:
+  <br><br>
+  Si vous avez des documents à me transmettre, envoyez-les moi par email (format pdf de préference)
+  <br><br>
+  <input type="submit" value="Envoyer" />
+  <input type="reset" value="Remise à zéro" />
+</form>
+<style>
+.contact-form-wrapper {
+width: 75%;
+padding: 30px;
+background: grey;
+}
+.contact-form-
+wrapper input[type=text], input[type=email], textarea {
+width: 100%;
+margin-bottom: 15px;
+padding: 5px;
+}
+.contact-form-wrapper textarea {
+height: 20vh;
+}
+input[type='submit'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+input[type=submit]:hover {
+background-color: orange;
+}
+input[type='reset'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+input[type=reset]:hover {
+background-color: orange;
+
+</style>

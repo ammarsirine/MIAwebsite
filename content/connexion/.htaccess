@@ -1,0 +1,7 @@
+
+     AuthName "Ceci est du contenu securise"
+     AuthType Basic
+     AuthUserFile "/xampp/htdocs/MIAwebsite/content/connexion/.htpasswd"
+<Limit GET POST>
+     Require valid-user
+</Limit>

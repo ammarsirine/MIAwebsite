@@ -5,20 +5,21 @@
     </h3>
     <div class="rpwe-block">
         <ul class=" rpwe-ul">
-            {{ range last 3 (where .Site.RegularPages "Type" "post") }}
+            {{ range first 3 (where .Site.RegularPages "Type" "post")}}
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="" class="thumbnail">
                     <a class="rpwe-img1" href="{{ .Permalink }}" class="thumbnail">
-		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+		    {{ if and (isset .Params "banner") (not (eq .Params.banner "")) ( isset .Params "date" ) }}
                     <img class="rpwe-alignleft rpwe-thumb" src="{{ .Params.banner | absURL }}" alt="{{ $.Title }}">
 		    {{else}}
                     <span class="thumbnail-image thumbnail-none"></span>
 		    {{ end }}
                 </a>
-
+ {{ if and (isset .Params "banner") (not (eq .Params.banner "")) ( isset .Params "date" ) }}
                 <h3 class="rpwe-title">
 		    <a href="{{ .Permalink }}" title="Permalink to {{ .Title }}" >{{ .Title }}</a>
 		</h3>
+    {{ end }}
             <!--    <time class="rpwe-time published" datetime="{{ .Date }}">{{ .Date.Format .Site.Params.date_format }}</time> -->
             </li>
             {{ end }}

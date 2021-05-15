@@ -1,10 +1,21 @@
 
 <form name= "Fiche de demande de financement" accept-charset="UTF-8" method="POST" role="form">
+
+
+  <div class="container">
+        <textarea name="content"></textarea>
+  </div>
+
+  <script src="ckeditor/ckeditor.js"></script>
+  <script>
+  CKEDITOR.replace('content');
+  CKEDITOR.config.extraPlugins='colorbutton';
+  </script>
   <span for=”name”> Votre Nom <span style="color: red;">*</span></span>
-  <input type=”text” id=”name” name=”name” required  Name” aria-labelledby=”name”/>
+  <input name="Nom" type="text" value="" />
   <br><br>
   <label for=”prenom”>Votre Prénom <span style="color: red;">*</span></label>
-  <input type=”text” id=”name” name=”name” required  aria-labelledby=”name”/>
+  <input name="Prénom" type="text" value="" />
   <br> <br>
   <b>Description précise de la demande</b>
   <br> <br>

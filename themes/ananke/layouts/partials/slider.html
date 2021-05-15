@@ -3,7 +3,7 @@
 {{ if isset .Site.Params "slider" }}
 {{ if .Site.Params.slider.enable }}
 
-<section class="featured-slider">
+<section  class="featured-slider">
     <div class="slider-cycle">
 	      {{ if .Site.Data.slider }}
 	      {{ if gt (len .Site.Data.slider) 0 }}
@@ -12,30 +12,25 @@
 	      <div class="slides {{ if eq $index 0 }} displayblock {{ else }} displaynone {{ end }}">
             {{ $vids := findRE $vid_search_terms .banner }}
             {{ if eq (len $vids) 0 }}
-		        <figure>
-			          <a href="{{ .url }}" title="{{ .Title }}">
-			              <img src="{{ .banner | absURL }}" class="pngfix wp-post-image" alt="{{ .Title }}" title="{{ .Title }}">
-		            </a>
-	          </figure>
-            {{ else }}
+
             <div class="wrap-element">
-                <iframe class="wrapped-iframe" src="{{ .banner }}" allowfullscreen></iframe>
+                <iframe class="wrapped-iframe"  src="{{ .banner }}" ></iframe>
             </div>
             {{ end }}
-		        <article class="featured-text">
+		      <article class="featured-text">
 			          <div class="featured-title">
 			              <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 		            </div><!-- .featured-title -->
-			          <div class="featured-content">{{ printf "%s" .Summary | markdownify }}
+			     <div >{{ printf "%s" .Summary | markdownify }}
 		            </div><!-- .featured-content -->
-	          </article><!-- .featured-text -->
+	         </article> --> <!-- .featured-text --> -->
 		    </div><!-- .slides -->
 	      {{ end }}
 	      {{ end }}
 	      {{ end }}
 	      {{ end }}
 
-	      {{ if and (isset .Site.Params.slider "manual") (.Site.Params.slider.manual) }}
+	      {{ if and (isset .Site.Params.slider "manual") (.Site.Params.slider.manual) }} //les 3 derniers
 	      {{ range $index, $page := .Site.Pages.ByParam "slider" }}
 	      {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
 	      {{ if and (isset .Params "slider") (.Params.slider) }}
@@ -43,10 +38,7 @@
             {{ $vids := findRE $vid_search_terms .banner }}
             {{ if eq (len $vids) 0 }}
 		        {{ partial "single_slide" . }}
-            {{ else }}
-            <div class="wrap-element">
-                <iframe class="wrapped-iframe" src="{{ .banner }}" allowfullscreen></iframe>
-            </div>
+
             {{ end }}
 		    </div><!-- .slides -->
 	      {{ end }}
@@ -54,8 +46,9 @@
 	      {{ end }}
 	      {{ else }}
 	      {{ $features := add .Site.Params.slider.num_features 1 }}
-	      {{ range $index, $page := first $features (where .Site.Pages "Type" "post") }}
-	      {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+	      {{ range $index, $page := first  $features (where .Site.Pages "Type" "post") }}
+
+	      {{ if and (isset .Params "banner") (not (eq .Params.banner ""))  (isset .Params "date")  (le $index  3)  }}
 	      <div class="slides {{ if eq $index 0 }} displayblock {{ else }} displaynone {{ end }}">
 		        {{ partial "single_slide" . }}
 		    </div><!-- .slides -->

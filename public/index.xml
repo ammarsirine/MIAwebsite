@@ -1,0 +1,328 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratoire Mathématiques, Image et Applications</title>
+    <link>http://localhost:1313/miawebsite/</link>
+    <description>Recent content on Laboratoire Mathématiques, Image et Applications</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2016 00:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/miawebsite/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Le MIA</title>
+      <link>http://localhost:1313/miawebsite/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/about/</guid>
+      <description>Le MIA :Présentation Vous trouverez ici quelques exemples de réalisations qui illustrent une partie de nos activités de recherche et de diffusion des savoirs.
+Exemples de prépublications et publications récentes :
+  P.-E. Martin, J. Benois-Pineau, R. Péteri, J. Morlier. Fine grained sport action recognition with Twin spatio-temporal convolutional neural networks  C. Bourel, C. Choquet, C. Rosier, M. Tsegmid : Modeling of shallow aquifers in interaction with overland water  M.</description>
+    </item>
+    
+    <item>
+      <title>Membres</title>
+      <link>http://localhost:1313/miawebsite/membres/</link>
+      <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/membres/</guid>
+      <description>Directrice
+CHOQUET CatherineProfesseur
+Tél. 05.46.45.72.33.
+Courriel : catherine.choquet(at)univ-lr.fr
+Bureau : 258.
+ Directeur adjoint
+BERTHIER MichelProfesseur
+Tél. 05.46.45.86.05.
+Courriel : michel.berthier(at)univ-lr.fr
+Bureau : 258.
+Bâtiment Pascal.
+ Secrétariat &amp;amp; Accueil
+ANGEVILLE RoselyneTél. 05.46.45.82.29. Fax. 05.46.45.82.40.
+Courriel : roselyne.angeville(at)univ-lr.fr Bureau : 257.
+Bâtiment Fourier.
+ Secrétariat financier
+RAUTURIER MartineTél. 05.16.49.65.58.
+Courriel : martine.coutant-rauturier(at)univ-lr.fr Bureau : B11.
+Bâtiment D&amp;rsquo;Orbigny.
+ Conseil de laboratoire
+CHOQUET CatherineBERTHIER MichelBOUWMANS ThierryPETERI Renaud Enseignants-chercheurs et doctorants</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/miawebsite/post/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/miawebsite/biblio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/biblio/</guid>
+      <description>Bilbliothèque - Bases de données - Impact factor   Liste des ouvrages de la bibliothèque Dpt Math/MIA  Télécharger le fichier à jour des ouvrages disponibles ICI Bases de données d&amp;rsquo;intérêt (en évolution&amp;hellip;)--  * MathSciNet* Zentralblatt* Springer LINK* Science direct* Kluwer online* JSTOR MathématiquesStatistiques * NUMDAM* EMANI* Biblioteka Wirtualna* Publications de la SMF Bulletin de la SMFSéminaires et Congrès * SIAM Journals</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/miawebsite/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/contact/</guid>
+      <description>Roselyne Angeville Secrétariat Laboratoire MIA
+Laboratoire de Mathématiques, Image et Applications
+Batiment Pascal, Pôle Sciences et Technologies
+Université de La Rochelle
+23, Avenue A. Einstein
+BP 33060
+17031 La Rochelle cedex
+Envoi d&#39;un message par formulaireVotre nom Votre email &amp;lt;/Votre message EnvoyerEmail:roselyne.angeville@univ-lr.fr
+33(0) 5 46 45 82 29
+33(0) 5 46 45 82 40</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/miawebsite/production/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/production/</guid>
+      <description>Cliquez dans les sous-menus pour obtenir des informations </description>
+    </item>
+    
+    <item>
+      <title>ANR</title>
+      <link>http://localhost:1313/miawebsite/anr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/anr/</guid>
+      <description>Agence Nationale de la Recherche :
+demandes en cours&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Autorisation d&#39;invitation</title>
+      <link>http://localhost:1313/miawebsite/autorisation_invitation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/autorisation_invitation/</guid>
+      <description>AUTORISATION D&amp;rsquo;INVITATION
+(afin de prévoir le remboursement des missions de vos invités) Pour pouvoir établir ce document, j’ai besoin des renseignements ci-dessous :Votre Nom *Votre Prénom *Statut Résidence Administrative Date de départ * Date de retour * Heure de départ Heure de retourMoyen de locomotion (estimation dépense)Véhicule personnelSNCFAVIONLocation véhiculeAutre (préciser)MotifSi autre moyen de locomotionNombre de repas Si voiture personnelFaut-il que je prévois la réservation d&#39;hôtel?</description>
+    </item>
+    
+    <item>
+      <title>Ckeditors</title>
+      <link>http://localhost:1313/miawebsite/ckeditor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/ckeditor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clifford Fourier transform</title>
+      <link>http://localhost:1313/miawebsite/clifford_fourier_transform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/clifford_fourier_transform/</guid>
+      <description>Images from the paper entitled :
+Clifford-Fourier Transform for Color Image ProcessingThe original image entitled &amp;ldquo;Flowers&amp;rdquo; comes from the Berkeley Image Segmentation Database</description>
+    </item>
+    
+    <item>
+      <title>Connexion</title>
+      <link>http://localhost:1313/miawebsite/connexion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/connexion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connexions</title>
+      <link>http://localhost:1313/miawebsite/connexion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/connexion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CPER</title>
+      <link>http://localhost:1313/miawebsite/cper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/cper/</guid>
+      <description>Le Contrat de Projets Etat Région. Le MIA est inscrit au titre de la sous action 5.3 : « Approches mathématiques de l’image pour l’éthologie (ATHOL) – Observation ces comportements complexes » du projet « Littoral » de l’axe A : « Impacts environnementaux » du futur Contrat de Projets Etat Région.
+L’objectif de cette sous action est d’aborder l’étude d’écosystèmes littoraux en mettant l’accent sur :
+ L’observation des comportements complexes en milieu naturel (notamment milieu sous-marin) et la structuration de la représentation visuelle sous forme technologique ou forme de connaissances ; L’extraction des caractéristiques des évolutions dans l’optique d’expliquer et d’orienter pour gérer au mieux les ressources impliquées.</description>
+    </item>
+    
+    <item>
+      <title>Démonstrations</title>
+      <link>http://localhost:1313/miawebsite/demos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/demos/</guid>
+      <description>Reconnaissance d&amp;rsquo;actions dans des vidéos par caractérisation fréquentielle des trajectoires de points critiques La thèse de Cyrille Beaudry porte sur la reconnaissance d’actions humaines dans des vidéos. La méthode présentée est basée sur l’estimation du flot optique dans chaque séquence afin d’en extraire des points critiques caractéristiques du mouvement. Des trajectoires d’intérêt multi-échelles sont ensuite générées à partir de ces points puis caractérisées fréquentiellement. Le descripteur final de la vidéo est obtenu en fusionnant ces caractéristiques de trajectoire avec des informations supplémentaires d’orientation de mouvements et de contours.</description>
+    </item>
+    
+    <item>
+      <title>Fiche de Demande de Financement</title>
+      <link>http://localhost:1313/miawebsite/demande_financement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/demande_financement/</guid>
+      <description>CKEDITOR.replace(&#39;content&#39;);CKEDITOR.config.extraPlugins=&#39;colorbutton&#39;;Votre Nom *Votre Prénom *Description précise de la demandeMotif de la demande *Coût de la demande * Impacts logistiques de la demande *  Financement de la demande Sources de financement * Impact sur l&#39;activité scientifique  Impact à plus ou moins long terme *Impact sur la production *Impact collectif *Champ libre.</description>
+    </item>
+    
+    <item>
+      <title>Le MIA fait sa rentrée</title>
+      <link>http://localhost:1313/miawebsite/extraits_rentree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/extraits_rentree/</guid>
+      <description>Quelques extraits de la rentrée du MIA 2012 - 2013 :
+ T. Bouwmans, E.H. Zahzah, C. Guyon. Détection d’objets mobiles dans les vidéos par les nouvelles avancées en ACP robustes L. Cherfils. L&amp;#39;équation de Cahn-Hilliard et ses applications S. Kadri-Harouna. Un schéma de type ondelette pour Navier-Stokes incompressible N. Sari. Seasonal dynamics in a SIR epidemic system  Quelques extraits de la rentrée du MIA 2013 - 2014 :</description>
+    </item>
+    
+    <item>
+      <title>Modèle de présentation, de poster et logo du MIA</title>
+      <link>http://localhost:1313/miawebsite/modeles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/modeles/</guid>
+      <description>Modèle de présentation MIA  modèle MIA de présentation pour Beamer: ICI  Modèle de poster MIA  Un exemple de poster MIA au format A1 (en LaTeX): ICI  Le format se change facilement dans \documentclass[portrait,final,a1]{baposter}
+Logo du MIA Voici le logo du MIA, que vous pouvez trouver en différents formats:
+  Fond transparent 72 dpi(fond transparent, affichage écran)
+  Fond blanc 72 dpi(fond blanc, affichage écran)</description>
+    </item>
+    
+    <item>
+      <title>Ordre de mission (avec frais)</title>
+      <link>http://localhost:1313/miawebsite/ordre_mission_avec_frais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/ordre_mission_avec_frais/</guid>
+      <description>Ordre de mission (avec frais) Pièces justificatives à conserver et à retourner rapidement au secrétariat après chaque mission afin de pouvoir effectuer le remboursement des frais de mission :
+  originaux des billets SNCF
+  si vous modifiez un billet SNCF payé par l’Université faite vous établir un justificatif SNCF pour le supplément
+  tickets d’embarquement aéroport (aller-retour)
+  justificatif d’inscription colloque, conférence ou lettre d’invitation</description>
+    </item>
+    
+    <item>
+      <title>Ordre de mission (sans frais)</title>
+      <link>http://localhost:1313/miawebsite/ordre_mission_sans_frais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/ordre_mission_sans_frais/</guid>
+      <description>ATTESTATION DE NONPAIEMENT
+(pour une mission sans remboursement de frais) Pour pouvoir établir et estimer cette mission, j’ai besoin des renseignements ci-dessous :
+Votre Nom * Votre Prénom *Lieu de la mission *Date de départ * Date de retour * Heure de départ Heure de retourMotif et description du déplacementMoyen de locomotionVéhicule personnelSNCFAVIONLocation véhiculeAutre (préciser)Si autre moyen de locomotion Qui prend en charge la mission?</description>
+    </item>
+    
+    <item>
+      <title>Partenariats institutionnels et industriels</title>
+      <link>http://localhost:1313/miawebsite/partenariats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/partenariats/</guid>
+      <description>Fiches de compétences :
+FlyerTraitement et analyse d&amp;#39;images, de vidéos et de données.Modélisation de l&amp;#39;environnement à l&amp;#39;échelle humaine.Partenariats institutionnels : Le MIA est membre de la fédération de recherche CNRS MIRES (Mathématiques et interactions, Images et information numérique, REseaux et Sécurité) et du réseau LabeX AMIES (Agence Maths-Entreprises). Il est laboratoire de soutien du RTP M3D (Mathématiques et Décision pour le Développement Durable). Il est également impliqué dans le 13ème CPER au travers d’une action du projet Littoral et dans la fédération de recherche CNRS FREDD (Fédération de Recherche en Environnement et Développement Durable).</description>
+    </item>
+    
+    <item>
+      <title>Pré-publis</title>
+      <link>http://localhost:1313/miawebsite/publis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/publis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/miawebsite/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publier sur le site du MIA</title>
+      <link>http://localhost:1313/miawebsite/gestion_site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/gestion_site/</guid>
+      <description>Commment poster une annonce de séminaire?</description>
+    </item>
+    
+    <item>
+      <title>Ressources Informatiques</title>
+      <link>http://localhost:1313/miawebsite/ressources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/ressources/</guid>
+      <description>Les ressources informatiques :
+ Serveur de calcul  Un serveur de calcul (baptisé &amp;ldquo;athol&amp;rdquo;) est à la disposition de tous. Il dispose de 800 Go, possède 2 quadcore, 24 Go de ram + 38 Go de swap, ainsi qu&amp;rsquo;une carte graphique nvidia Quadro FX 1800 et un processeur de calcul Tesla C1060. On y accédera par protocole ssh après avoir créé un compte ici (indépendant du compte samba sur &amp;ldquo;trust&amp;rdquo;):</description>
+    </item>
+    
+    <item>
+      <title>Secrétariat</title>
+      <link>http://localhost:1313/miawebsite/secretariats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/secretariats/</guid>
+      <description>FICHE DE DEMANDE DE FINANCEMENT Il s&amp;rsquo;agit de la première fiche à remplir pour toute action qui demande un financement, quel qu&amp;rsquo;il soit cliquer ici
+ ORDRE DE MISSION (avec ou sans frais) Je vous rappelle que pour tous vos déplacements dans le cadre de votre travail, vous devez faire établir un ordre de mission auprès du secrétariat (quinze jours à l’avance pour les déplacements en France et 2 mois avant un départ vers l’étranger).</description>
+    </item>
+    
+    <item>
+      <title>Suivi robuste de poissons dans des passes à poissons par filtrage particulaire et transformée en curvelets</title>
+      <link>http://localhost:1313/miawebsite/suivi_poisson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/suivi_poisson/</guid>
+      <description>Romain Quéré et Renaud
+Référence:
+Suivi robuste de poissons dans des passes à poissons par filtrage particulaire et transformée en curvelets.
+Romain Quéré and Renaud Péteri
+23ème conférence GRETSI, 5-8 septembre 2011, Bordeaux, France.
+Article en ligne ICISuivi avec une vraisemblance bas&amp;eacute;e sur les niveaux de gris from MIA on Vimeo.</description>
+    </item>
+    
+    <item>
+      <title>Séminaires du MIA</title>
+      <link>http://localhost:1313/miawebsite/seminaires/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/seminaires/</guid>
+      <description>Pour tout renseignement, merci de contacter Michel Berthier ou Catherine Choquet. À venir   Invité au laboratoire, du 13 décembre 2020 au 15 mars 2021
+Billel Nebili, École Militaire Polytechnique, Algérie.
+  Passés   Invité au laboratoire, du 12 octobre au 14 décembre 2020
+Moustapha Djibo, LAMFA, Univ. De Dosso, Niger.
+  Invité au laboratoire, du 12 au 14 février 2020
+Eduard Hoenkamp (Queensland Univ. of Technology, Australie)</description>
+    </item>
+    
+    <item>
+      <title>Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford</title>
+      <link>http://localhost:1313/miawebsite/correlation_phase_couleur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/correlation_phase_couleur/</guid>
+      <description>More details will be found in :
+&amp;ldquo;Color object recognition based on clifford fourier transform.&amp;rdquo;, J. Mennesson, C. Saint-Jean, and L. Mascarilla, In Guide to Geometric Algebra in Practice. Springer, 2011
+Code implementation [clifford_fourier_transform]:
+  Clifford Fourier transform for color images
+  Inverse Clifford Fourier transform for color images
+  </description>
+    </item>
+    
+  </channel>
+</rss>

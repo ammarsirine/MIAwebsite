@@ -248,7 +248,7 @@ blockquote {
 	font-weight: normal;
 	padding: 20px;
 	background: #fff;
-	border-left: 4px solid #439f55;
+	border-left: 4px solid #5499C7;
 	margin-bottom: 20px;
 	background-color: #F9F9F9;
 }
@@ -345,7 +345,7 @@ input[type="reset"],input[type="button"],input[type="submit"] {
 	text-decoration: none;
 	padding: 4px 12px;
 	text-transform: lowercase;
-	border: 1px solid #439f55;
+	border: 1px solid #5499C7;
 	cursor: pointer;
 	background: #57ad68;
 	color: #fff;
@@ -360,7 +360,7 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	background: #439f55;
+	background: #5499C7;
 }
 input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active {
 	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
@@ -375,11 +375,12 @@ a {
 	text-decoration: underline;
 }
 a:focus,a:active,a:hover {
-	color: #439f55;
+	color: #5499C7;
 	text-decoration: none;
 }
 /* Images */
 figure {
+
 	margin: 0;
 	text-align: center;
 }
@@ -461,7 +462,7 @@ img#wpstats {
 	text-decoration: none;
 	padding: 4px 12px;
 	text-transform: lowercase;
-	border: 1px solid #439f55;
+	border: 1px solid #5499C7;
 	cursor: pointer;
 	background-color: #57ad68;
 	color: #fff;
@@ -473,7 +474,7 @@ img#wpstats {
 }
 .entry-meta-bar .readmore:hover,
 .entry-meta-bar .readmore:focus {
-	background: #439f55;
+	background: #5499C7;
 	color: #fff;
 }
 .entry-meta-bar .readmore:active {
@@ -524,7 +525,7 @@ a.more-link:focus {
 	color: #bdbdbd;
 }
 .back-to-top:focus-within a {
-	background: #439f55;
+	background: #5499C7;
 }
 /* =Header
 -----------------------------------------------*/
@@ -558,7 +559,7 @@ a.more-link:focus {
 #site-title a:hover,
 #site-title a:focus,
 #site-title a:active {
-	color: #439f55;
+	color: #5499C7;
 }
 #site-description {
 	font: 14px helvetica, sans-serif;
@@ -704,7 +705,7 @@ a.more-link:focus {
 /* =Menu
 --------------------------------------------------------------*/
 #main-nav {
-	border: 1px solid #439f55;
+	border: 1px solid #5499C7;
 	cursor: pointer;
 	background: #57ad68;
 	color: #fff;
@@ -734,7 +735,7 @@ a.more-link:focus {
 #main-nav ul li.current_page_item a,
 #main-nav ul li:hover > a,
 #main-nav ul li:focus-within > a {
-	background: #439f55;
+	background: #5499C7;
 	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -750,7 +751,7 @@ a.more-link:focus {
 #main-nav ul ul :hover > a,
 #main-nav ul ul :focus-within > a,
 #main-nav a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 /* Dropdown */
 #main-nav ul li ul,
@@ -772,7 +773,7 @@ a.more-link:focus {
 #main-nav ul li ul {
 	position: absolute;
 	background-color: #fff;
-	border-bottom: 4px solid #439f55;
+	border-bottom: 4px solid #5499C7;
 	top: 40px;
 	left: 0px;
 	width: 190px;
@@ -820,7 +821,7 @@ a.more-link:focus {
 	background-color: #F9F9F9;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	color: #439f55;
+	color: #5499C7;
 }
 #main-nav ul li ul li ul {
 	left: 188px;
@@ -840,6 +841,7 @@ a.more-link:focus {
 --------------------------------------------------------------*/
 .featured-slider,.featured-slider .slider-cycle {
 	position: relative;
+
 }
 .featured-slider .displayblock {
 	display: block;
@@ -877,7 +879,7 @@ a.more-link:focus {
 }
 .featured-text .featured-title a:hover,
 .featured-text .featured-title a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 
 /* Controllers */
@@ -901,8 +903,8 @@ a.more-link:focus {
 }
 
 #controllers a.active {
-	background-color: #439f55;
-	color: #439f55;
+	background-color: #5499C7;
+	color: #5499C7;
 }
 
 #controllers a:hover,
@@ -939,7 +941,7 @@ a.more-link:focus {
 #content ol a:hover,
 #content ol a:focus {
 	text-decoration: none;
-	color: #439f55;
+	color: #5499C7;
 }
 #content ol {
 	list-style-type: decimal;
@@ -1049,7 +1051,7 @@ a.more-link:focus {
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active {
-	color: #439f55;
+	color: #5499C7;
 }
 .entry-meta-bar {
 	border-top: 1px solid #eaeaea;
@@ -1074,7 +1076,7 @@ a.more-link:focus {
 }
 .entry-meta a:hover,
 .entry-meta a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 .entry-meta span {
 	padding-right: 8px
@@ -1119,7 +1121,7 @@ a.more-link:focus {
 }
 .tags a:hover,
 .tags a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 .post-featured-image {
 	margin-bottom: 0px;
@@ -1216,7 +1218,7 @@ thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
 }
 .custom-gallery-title a:hover,
 .custom-gallery-title a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 /* Blog Medium Page */
 .medium-wrap .post-featured-image {
@@ -1505,7 +1507,7 @@ a:focus img[class*="align"],a:hover img[class*="align"],a:active img[class*="ali
 #wp_page_numbers ul li.active_page a {
 	border: 1px solid #57ad68;
 	color: #fff;
-	background: #439f55;
+	background: #5499C7;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
@@ -1537,7 +1539,7 @@ a:focus img[class*="align"],a:hover img[class*="align"],a:active img[class*="ali
 }
 .wp-pagenavi .current,.wp-pagenavi a:hover,
 .wp-pagenavi .current,.wp-pagenavi a:focus {
-	border: 1px solid #439f55 !important;
+	border: 1px solid #5499C7 !important;
 	color: #fff;
 	background: #57ad68;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1577,9 +1579,9 @@ ul.default-wp-page li a:hover,
 ul.default-wp-page li a:focus {
 	border: 1px solid #57ad68;
 	color: #fff !important;
-	border: 1px solid #439f55;
+	border: 1px solid #5499C7;
 	cursor: pointer;
-	background: #439f55;
+	background: #5499C7;
 	color: #fff;
 	position: relative;
 	border-radius: 2px;
@@ -1647,7 +1649,7 @@ ul.default-wp-page li a:active {
 }
 .widget ul li a:hover,
 .widget ul li a:focus {
-	color: #439f55;
+	color: #5499C7;
 	text-decoration: underline;
 }
 .widget-title {
@@ -1660,7 +1662,7 @@ ul.default-wp-page li a:active {
 }
 .widget-title a:hover,
 .widget-title a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 /* Search Widget */
 .widget_search input.s {
@@ -1729,7 +1731,7 @@ ul.default-wp-page li a:active {
 }
 .widget_tag_cloud a:hover,
 .widget_tag_cloud a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 /* WP Caption */
 .wp-caption {
@@ -1818,7 +1820,7 @@ ul.default-wp-page li a:active {
 }
 #site-generator .copyright a:hover,
 #site-generator .copyright a:focus {
-	color: #439f55;
+	color: #5499C7;
 }
 /* Custom implementations */
 .attachment-featured.wp-post-image {

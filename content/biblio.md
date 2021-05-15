@@ -1,6 +1,6 @@
 
 
-### Bilbliothèque - Bases de données - Impact factor
+### Bilbliothèque - Bases de données - Impact factor [![homepage](/images/edit_icon.png)](http://localhost:8080/edit.php)
 
 - ***Liste des ouvrages de la bibliothèque Dpt Math/MIA***
 
@@ -53,7 +53,6 @@ Télécharger le fichier à jour des ouvrages disponibles {{< newtabref  href="h
 * {{< newtabref  href="https://hal.archives-ouvertes.fr/" title="HAL">}}
 
 - ***Impact factor***
-
 
 > Classement des journaux de maths: \
 * {{< newtabref  href="http://www.ma.utexas.edu/users/lsilvest/rankings/" title="http://www.ma.utexas.edu/users/lsilvest/rankings/">}}

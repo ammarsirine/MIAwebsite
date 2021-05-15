@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+
+
+
+<head>
+
+    <title> - Laboratoire Mathématiques, Image et Applications </title>
+    
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet' id='travelify_style-css'  href="http://localhost:1313/miawebsite/style.min.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='embed_style-css'  href="http://localhost:1313/miawebsite/embed.min.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='google_font_ubuntu-css'  href="http://localhost:1313/miawebsite/style.min.css" type='text/css' media='all' />
+    <link rel="shortcut icon" href="http://localhost:1313/miawebsite/favicon.ico" type="image/x-icon">
+    
+    <script type="text/javascript">
+     window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost:1313\/miawebsite\/js\/wp-emoji-release.min.js"}};
+     !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+     img.wp-smiley,
+     img.emoji {
+	 display: inline !important;
+	 border: none !important;
+	 box-shadow: none !important;
+	 height: 1em !important;
+	 width: 1em !important;
+	 margin: 0 .07em !important;
+	 vertical-align: -0.1em !important;
+	 background: none !important;
+	 padding: 0 !important;
+     }
+
+    </style>
+
+
+    <style type="text/css">
+     a { color: #5499C7; }
+     #site-title a { color: ; }
+     #site-title a:hover { color: ; }
+     .wrapper { background: #F8F8F8; }
+     .social-icons ul li a { color: #d0d0d0; list-style: none;}
+     #main-nav a, #main-nav a:hover,  #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: #fff; }
+     .widget, article { background: #fff; }
+     .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title  { color: #1b1e1f; }
+     a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: #5499C7; }
+     #main-nav { background: #5499C7; border-color: #5499C7; }
+     #main-nav ul li ul, body { border-color: #5499C7; }
+     #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: #5499C7; }
+     #main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: #5499C7; }
+     .entry-content { color: #1D1D1D; }
+     input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #5499C7; border-color: #5499C7 !important; }
+     ::selection { background: #5499C7; }
+     blockquote { border-color: #5499C7; }
+     #controllers a:hover, #controllers a.active { color:  #5499C7; }
+     input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: #5499C7; border-color: #5499C7; }
+    </style>
+    <style type="text/css" id="custom-background-css">
+     body.custom-background { background-image: url("http://localhost:1313/miawebsiteimages/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+    </style>
+    <style type="text/css" media="print">#wpadminbar { display:none; }</style>
+    <style type="text/css" media="screen">
+     * html body { margin-top: 32px !important; }
+     @media screen and ( max-width: 782px ) {
+	 html { margin-top: 26px !important; }
+	 * html body { margin-top: 26px !important; }
+     }
+    </style>
+
+    
+    
+</head>
+
+  <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    <div class="wrapper">
+      <header id="branding" >
+	<div class="container clearfix">
+  <div class="hgroup-wrap clearfix">
+
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+	  
+	  <li class="facebook">
+<img src="http://localhost:1313/miawebsite/logouniv.png" class="floatRight"></img>
+	  </li>
+    <li class="github">
+<img src="http://localhost:1313/miawebsite/republique.png" class="floatRight"></img>
+    </li>
+	  
+
+      </div>
+    </section>
+    
+
+    <hgroup id="site-logo" class="clearfix">
+      <h1 id="site-title">
+	<a href="http://localhost:1313/miawebsite/" rel="home">
+	  
+          <img src="http://localhost:1313/miawebsite/logolab.png"></img>
+	  
+	  
+	  <span class="site-title">Laboratoire Mathématiques, Image et Applications</span>
+	  
+	</a>
+      </h1>
+      <h2 id="site-description">Bienvenue sur le site du laboratoire MIA</h2>
+    </hgroup>
+
+  </div>
+</div>
+<style>
+.floatRight{
+ float:right;margin-right:30px;
+ height: 100px;
+  width: 50;}
+</style>
+
+	
+<nav id="main-nav" class="clearfix">
+
+  <div class="container clearfix">
+    <ul class="root">
+        
+        
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/about/">Le MIA &raquo;</a>
+	          
+	          <ul class="sub-menu">
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/membres/">Membres
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/about/">Présentation
+	                  </a>
+	                  
+	              </li>
+	              
+
+            </ul>
+	          
+        </li>
+        
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/production/">Production &raquo;</a>
+	          
+	          <ul class="sub-menu">
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/demos/">Démos
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publis/">Pré-publis
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publications/">Publications
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/seminaires/">Seminaires
+	                  </a>
+	                  
+	              </li>
+	              
+
+            </ul>
+	          
+        </li>
+        
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/partenariats/">Partenariats</a>
+	          
+        </li>
+        
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/contact/">Infos Pratiques</a>
+	          
+        </li>
+        
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/connexion/">Connexion à l&#39;espace privé &raquo;</a>
+	          
+	          <ul class="sub-menu">
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/biblio/">Bibliothèque-Base de données
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/gestion_site/">Gestion du site du MIA
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publications/">Gestions des publications
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/modeles/">Modèles et logo MIA
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/ressources/">Ressources informatiques
+	                  </a>
+	                  
+	              </li>
+	              
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/secretariats/">Secrétariat
+	                  </a>
+	                  
+	              </li>
+	              
+
+            </ul>
+	          
+        </li>
+        
+    </ul>
+
+  </div>
+
+
+
+</nav>
+
+      </header>
+      <div id="main" class="container clearfix">
+	<div id="container">
+	      
+
+<div id="primary" class="no-margin-left">
+
+
+
+    <div id="content">
+	<section id="post" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+	    <article>
+		<div class="article-inner">
+		    <header class="entry-header">
+    <a href="http://localhost:1313/miawebsite/ckeditor/readme/">
+    <h2 class="entry-title" itemprop="name">
+        
+    </h2>
+    </a>
+</header>
+
+		    
+    
+<div class="entry-meta-bar clearfix">
+  <div class="entry-meta">
+    
+
+    
+    
+  
+    
+
+    
+
+    
+    
+  </div>
+  
+
+		    
+
+		</div>
+		<div class="entry-content" itemprop="articleBody">
+		    <h1 id="ckeditor-4">CKEditor 4</h1>
+<p>Copyright (c) 2003-2021, CKSource - Frederico Knabben. All rights reserved.
+<a href="https://ckeditor.com">https://ckeditor.com</a> - See LICENSE.md for license information.</p>
+<p>CKEditor 4 is a text editor to be used inside web pages. It&rsquo;s not a replacement
+for desktop text editors like Word or OpenOffice, but a component to be used as
+part of web applications and websites.</p>
+<h2 id="documentation">Documentation</h2>
+<p>The full editor documentation is available online at the following address:
+<a href="https://ckeditor.com/docs/">https://ckeditor.com/docs/</a></p>
+<h2 id="installation">Installation</h2>
+<p>Installing CKEditor is an easy task. Just follow these simple steps:</p>
+<ol>
+<li><strong>Download</strong> the latest version from the CKEditor website:
+<a href="https://ckeditor.com">https://ckeditor.com</a>. You should have already completed this step, but be
+sure you have the very latest version.</li>
+<li><strong>Extract</strong> (decompress) the downloaded file into the root of your website.</li>
+</ol>
+<p><strong>Note:</strong> CKEditor is by default installed in the <code>ckeditor</code> folder. You can
+place the files in whichever you want though.</p>
+<h2 id="checking-your-installation">Checking Your Installation</h2>
+<p>The editor comes with a few sample pages that can be used to verify that
+installation proceeded properly. Take a look at the <code>samples</code> directory.</p>
+<p>To test your installation, just call the following page at your website:</p>
+<pre><code>http://&lt;your site&gt;/&lt;CKEditor installation path&gt;/samples/index.html
+</code></pre>
+<p>For example:</p>
+<pre><code>http://www.example.com/ckeditor/samples/index.html
+</code></pre>
+
+		    
+		</div>
+		
+		
+<ul class="default-wp-page clearfix">
+  
+  <li class="previous">
+    <a href="http://localhost:1313/miawebsite/ckeditor/skins/moono-lisa/readme/" rel="prev">
+      <span class="meta-nav">
+	←
+      </span>
+      
+    </a>
+  </li>
+  
+
+  
+  <li class="next">
+    <a href="http://localhost:1313/miawebsite/ckeditor/plugins/wsc/readme/" rel="next">
+      
+      <span class="meta-nav">
+	→
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+
+	    </article>
+
+	    
+	    <section id="comments">
+		<div id="disqus_thread">
+		    
+		</div>
+	    </section>
+	    
+	</section>
+
+    </div>
+
+
+</div>
+
+<div id="secondary">
+    
+<aside id="rpwe_widget-3" class="widget rpwe_widget">
+    <h3 class="widget-title">
+        Publications Récentes
+    </h3>
+    <div class="rpwe-block">
+        <ul class=" rpwe-ul">
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="" class="thumbnail">
+                    <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_2/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_2.jpg" alt="">
+		    
+                </a>
+ 
+                <h3 class="rpwe-title">
+		    <a href="http://localhost:1313/miawebsite/post/article_2/" title="Permalink to Suivi d&#39;objets deformables par filtres particulaires utilisant le mouvement et la couleur" >Suivi d&#39;objets deformables par filtres particulaires utilisant le mouvement et la couleur</a>
+		</h3>
+    
+            
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="" class="thumbnail">
+                    <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_1/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_1.jpg" alt="">
+		    
+                </a>
+ 
+                <h3 class="rpwe-title">
+		    <a href="http://localhost:1313/miawebsite/post/article_1/" title="Permalink to Segmentation couleur multi-échelle des objets verts utilisant le signal monogène couleur" >Segmentation couleur multi-échelle des objets verts utilisant le signal monogène couleur</a>
+		</h3>
+    
+            
+            </li>
+            
+            <li class="rpwe-il rpwe-classfix">
+                <a class="rpwe-img" href="" class="thumbnail">
+                    <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_3/" class="thumbnail">
+		    
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_3.jpg" alt="">
+		    
+                </a>
+ 
+                <h3 class="rpwe-title">
+		    <a href="http://localhost:1313/miawebsite/post/article_3/" title="Permalink to Sélection de classes par similarité de degré de typicalité" >Sélection de classes par similarité de degré de typicalité</a>
+		</h3>
+    
+            
+            </li>
+            
+
+
+
+        </ul>
+    </div>
+</aside>
+<div class="widget">
+<div>
+	<a class="twitter-timeline" data-tweet-limit="2" data-size="small" data-lang="en" data-theme="Light" href="https://twitter.com/laboratoireMIA">Tweets by KnightsOfEanna</a>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<style>
+ .rpwe-block ul{list-style:none!important;margin-left:0!important;padding-left:0!important;}.rpwe-block li{border-bottom:1px solid #eee;margin-bottom:10px;padding-bottom:10px;list-style-type: none;}.rpwe-block a{display:inline!important;text-decoration:none;}.rpwe-block h3{background:none!important;clear:none;margin-bottom:0!important;margin-top:0!important;font-weight:400;font-size:12px!important;line-height:1.5em;}.rpwe-thumb{border:1px solid #EEE!important;box-shadow:none!important;margin:2px 10px 2px 0;padding:3px!important;}.rpwe-summary{font-size:12px;}.rpwe-time{color:#bbb;font-size:11px;}.rpwe-comment{color:#bbb;font-size:11px;padding-left:5px;}.rpwe-alignleft{display:inline;float:left;}.rpwe-alignright{display:inline;float:right;}.rpwe-aligncenter{display:block;margin-left: auto;margin-right: auto;}.rpwe-clearfix:before,.rpwe-clearfix:after{content:"";display:table !important;}.rpwe-clearfix:after{clear:both;}.rpwe-clearfix{zoom:1;}
+</style>
+
+
+
+    
+
+    
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+
+function Login(form) {
+var username = form.username.value;
+var password = form.password.value;
+var server = form.server.value;
+if (username =='sammar' && password=='123' && server) {
+
+var htsite = "/connexion";
+window.location = htsite;
+    return false;
+}
+else {
+alert("Please enter your username and password.");
+   }
+}
+
+</script>
+
+</HEAD>
+
+
+
+<BODY>
+
+
+<form method="post" >
+<input type="hidden" name="server" value="www.domain.com/secure/">
+Username:
+<input type=text name=username size=20>
+<br><br>
+Password:
+<input type=password name=password size=20>
+<input type=button value="Login!" onClick="Login(this.form)" name="button">
+</form>
+
+    
+
+<aside id="search-3" class="widget widget_search">
+  <form method="get" action="https://duckduckgo.com/">
+    <input type="search" name="q" maxlength="255" placeholder="Search the site">
+    <input type="hidden" name="sites" value="http://localhost:1313/miawebsite"/>
+    <input type="hidden" name="k7" value="#faf8f8"/>
+    <input type="hidden" name="kj" value="#b33"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="ko" value="-1"/>
+    <input type="hidden" name="k1" value="-1"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+  </form>
+</aside>
+
+
+
+    
+
+    
+
+
+
+</div>
+
+
+
+
+
+      </div>
+    </div>
+    <footer id="footerarea" class="clearfix">
+  <div class="widget-wrap">
+    <div class="container">
+      <div class="widget-area clearfix">
+      </div>
+    </div>
+  </div>
+
+  <div id="site-generator">
+    <div class="container">
+      <div class="copyright">&copy; Site du laboratoire MIA - Université de La Rochelle (réalisé par <a href="https://www.researchgate.net/profile/Sirine-Ammar">Sirine Ammar</a>).
+      </div>
+      <div class="footer-right"></div><div style="clear:both;">
+      </div>
+    </div>
+  </div>
+  <div class="back-to-top">
+    <a href="#branding"></a>
+  </div>
+</footer>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/jquery.min.js" id='jquery-core-js'></script>
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/jquery-migrate.min.js" id='jquery-migrate-js'</script>
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/functions.min.js" id='travelify_functions-js'></script>
+
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/jquery.cycle.all.min.js" id='jquery_cycle-js'></script>
+<script type='text/javascript'>
+  
+ var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
+  
+</script>
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/slider-settings.min.js" id='travelify_slider-js'></script>
+<script type='text/javascript' src="http://localhost:1313/miawebsitejs/wp-embed.min.js" id='wp-embed-js'></script>
+<link rel='stylesheet' id='font-awesome-css'  href="http://localhost:1313/miawebsitecss/font-awesome.min.css" type='text/css' media='all' />
+
+
+<script type="text/javascript">
+ (function() {
+     var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+     request = true;
+
+     b[c] = b[c].replace( rcs, ' ' );
+     
+     b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+ }());
+</script>
+
+<link rel="apple-touch-icon" href="http://localhost:1313/miawebsiteapple-touch-icon.png" />
+<link rel="stylesheet" href="http://localhost:1313/miawebsite/fancybox/jquery.fancybox.css">
+
+
+<script src="http://localhost:1313/miawebsite/fancybox/jquery.fancybox.pack.js"></script>
+<script src="http://localhost:1313/miawebsite/js/script.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

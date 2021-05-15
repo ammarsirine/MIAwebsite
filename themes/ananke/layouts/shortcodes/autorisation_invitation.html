@@ -1,0 +1,95 @@
+<form name= "Autorisation d'invitation" accept-charset="UTF-8" method="POST" role="form">
+  Pour pouvoir établir ce document, j’ai besoin des renseignements ci-dessous :
+<br><br>
+  <span for=”name”> Votre Nom <span style="color: red;">*</span></span>
+  <input name="Nom" type="text" value="" />
+  <br><br>
+  <label for=”prenom”>Votre Prénom <span style="color: red;">*</span></label>
+  <input name="Prénom" type="text" value="" />
+  <br><br>
+  <label for=”statut”>Statut </label>
+  <input name="statut" type="text" value="" />
+  <br> <br>
+  <label for=”résidence_administrative”>Résidence Administrative </label>
+  <input name="résidence_administrative" type="text" value="" />
+  <br> <br>
+  Date de départ <span style="color: red;">*</span> <input type="date" name="Date_départ" value="" />
+ <br> <br>
+ Date de retour <span style="color: red;">*</span> <input type="date" name="Date_retour">
+ <br> <br>
+ <label for=”message”> Heure de départ </label>
+  <input name="Heure_départ" type="text" value="" />
+<br> <br>
+ <label for=”message”>Heure de retour</label>
+<input name="Heure_retour" type="text" value="" /> <br> <br>
+  <label for=”message”>Moyen de locomotion <br> (estimation dépense)</label>
+  <select name="moyen" id="moyen-select">
+    <option value="">Véhicule personnel</option>
+    <option value="SNCF">SNCF</option>
+    <option value="AVION">AVION</option>
+    <option value="Location">Location véhicule</option>
+    <option value="Autre">Autre (préciser)</option>
+</select>
+  <br> <br>
+  <label for=”message”>Motif</label>
+  <textarea  rows="5" cols="10" id=”message” name=”message” placeholder= "Motif précis (joindre justificatif ou adresse page web)" aria-labelledby=”message”></textarea>
+  <br> <br>
+  <label for=”moyen”>Si autre moyen de locomotion</label>
+  <input name="moyen de locomotion" placeholder="Précisez lequel" type="text" />
+  <br> <br>
+  <label for=”moyen”>Nombre de repas </label>
+  <input name="nombre_repas" type="text" />
+  <br> <br>
+  <label for=”message”>Si voiture personnel</label>
+  <textarea id=”message” name=”message” placeholder = "préciser lequel ? si nouveau véhicule joindre carte grise+attestation assurance" aria-labelledby=”message”></textarea>
+  <br> <br>
+  <label for=”message”>Faut-il que je prévois la réservation d'hôtel?</label>
+  <select name="réservation" id="moyen-select">
+    <option value="">Non</option>
+    <option value="SNCF">Oui</option>
+  </select>
+  <br> <br>
+  <label for=”moyen”>Nombre de nuit d'hôtel </label>
+  <input name="nombre_nuit" type="text" />
+  <br><br>
+  <label for=”message”>Autres dépenses à prévoir (tickets péage, taxi, etc?)</label>
+  <textarea  rows="5" cols="10" id=”message” name=”message” placeholder= "Motif précis (joindre justificatif ou adresse page web)" aria-labelledby=”message”></textarea>
+  <br> <br>
+  <label for="mail">Adresse Mail de la personne invitée </label>
+  <input name="user_mail" type="email" id="mail" placeholder="Rentrez ici l'adresse Mail de la personne invitée (pour pouvoir la contacter au besoin)" /><br> <br>
+  Remarque:
+  <br><br>
+  Si vous avez des documents à me transmettre, envoyez-les moi par email (format pdf de préference)
+  <br><br>
+  <input type="submit" value="Envoyer" />
+  <input type="reset" value="Remise à zéro" />
+<style>
+.contact-form-wrapper {
+width: 75%;
+padding: 30px;
+background: grey;
+}
+.contact-form-
+wrapper input[type=text], input[type=email], textarea {
+width: 100%;
+margin-bottom: 15px;
+padding: 5px;
+}
+.contact-form-wrapper textarea {
+height: 20vh;
+}
+input[type='submit'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+input[type=submit]:hover {
+background-color: orange;
+}
+input[type='reset'] {
+    grid-column: 2;
+    grid-row: 2;
+}
+input[type=reset]:hover {
+background-color: orange;
+
+</style>

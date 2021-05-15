@@ -1,40 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Envoi d'un message par formulaire</title>
+</head>
 
-<form class="contact-form-wrapper" accept-charset="UTF-8" method="POST" role="form" action="mailto:ammarsirine3@gmail.com">
-  <label for=”name”>Name</label>
-  <input type=”text” id=”name” name=”name” required placeholder=Your Name” aria-labelledby=”name”/>
-  <br> <br> <br>
-  <label for=”email”>Email Address</label>
-  <input type=”email” id=”email” name=”email” required placeholder=Email aria-labelledby=”email”/>
-  <br> <br> <br>
-  <label for=”message”>Message</label>
-  <textarea id=”message” name=”message” aria-labelledby=”message”></textarea>
-  <br> <br> <br>
-
-  <input type="submit" value="Send Email" />
-  <
-</form>
-<style>
-.contact-form-wrapper {
-width: 75%;
-padding: 30px;
-background: grey;
-}
-.contact-form-
-wrapper input[type=text], input[type=email], textarea {
-width: 100%;
-margin-bottom: 15px;
-padding: 5px;
-}
-.contact-form-wrapper textarea {
-height: 20vh;
-}
-input[type=submit] {
-font-family: Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
-font-size: 1.25em;
-width: 20%;
-padding: 10px;
-}
-input[type=submit]:hover {
-background-color: orange;
-}
-</style>
+<body>
+  <form>
+  <div class="row">
+    <label for="inputname"> Votre nom </label>
+    <input type="text" name="name" class="form-control" id="inputname" action="index.html" method="post">
+  </div>
+  <div>
+    <label for="inputemail"> Votre email </<label>
+   <input type="text" name="email" class="form-control" id="inputemail">
+   </div>
+   <div class="form-group">
+     <label for="inputmessage"> Votre message </label>
+     <textarea id="inputmessage" naame="message"></textarea>
+      </div>
+    <button type="submit" class="btn btn-primary"> Envoyer</button>
+    </form>
+</body>
+</html>

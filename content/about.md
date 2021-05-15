@@ -22,7 +22,7 @@ Vous trouverez ici quelques exemples de réalisations qui illustrent une partie 
 
 I. Gallagher. {{< newtabref  href="http://mediacenter.univ-lr.fr/videos/?video=MEDIA160122124025126" title="[Un problème du millénaire : la résolution des équations de Navier-Stokes]" >}}  
 
-Extraits des rentrées {{< newtabref  href="http://localhost:1313/extraits_rentr%C3%A9e/" title="MIA 2012, 2013" >}}
+Extraits des rentrées {{< newtabref  href="http://localhost:1313/extraits_rentree/" title="MIA 2012, 2013" >}}
 
 ***Photomaton :***
 - {{< newtabref  href="http://mia.univ-larochelle.fr/images/stories/exemples_travaux/grandes/bert.pdf" title="M. Berthier">}}

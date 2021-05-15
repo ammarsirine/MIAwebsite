@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Laboratoire Mathématiques, Image et Applications</title>
+    <link>http://localhost:1313/miawebsite/post/</link>
+    <description>Recent content in Posts on Laboratoire Mathématiques, Image et Applications</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2016 00:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/miawebsite/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suivi d&#39;objets deformables par filtres particulaires utilisant le mouvement et la couleur</title>
+      <link>http://localhost:1313/miawebsite/post/article_2/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/article_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Segmentation couleur multi-échelle des objets verts utilisant le signal monogène couleur</title>
+      <link>http://localhost:1313/miawebsite/post/article_1/</link>
+      <pubDate>Tue, 04 Feb 2014 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/article_1/</guid>
+      <description>Travaux de Guillaume Demarcq et Laurent Mascarilla</description>
+    </item>
+    
+    <item>
+      <title>Sélection de classes par similarité de degré de typicalité</title>
+      <link>http://localhost:1313/miawebsite/post/article_3/</link>
+      <pubDate>Mon, 04 Feb 2013 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/article_3/</guid>
+      <description>Travaux de H. Le Capitaine et C. Frélicot</description>
+    </item>
+    
+    <item>
+      <title>Sana</title>
+      <link>http://localhost:1313/miawebsite/post/article_5/</link>
+      <pubDate>Fri, 04 Feb 2011 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/article_5/</guid>
+      <description>Travaux de H. Le Capitaine et C. Frélicot</description>
+    </item>
+    
+    <item>
+      <title>Sirine</title>
+      <link>http://localhost:1313/miawebsite/post/article_4/</link>
+      <pubDate>Thu, 04 Feb 2010 00:00:00 +0100</pubDate>
+      
+      <guid>http://localhost:1313/miawebsite/post/article_4/</guid>
+      <description>Travaux de H. Le Capitaine et C. Frélicot</description>
+    </item>
+    
+  </channel>
+</rss>

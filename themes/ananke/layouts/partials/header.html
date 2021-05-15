@@ -3,6 +3,7 @@
 {{ $embed_css := resources.Get "embed.css" }}
 {{ $embed_style := $embed_css | resources.Minify }}
 <head>
+
     <title>{{ if .IsHome }}{{ .Site.Title }}  - {{ .Site.Params.site_description }} {{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }} </title>
     <!--    <link rel='dns-prefetch' href='//fonts.googleapis.com' />  -->
     <link rel='dns-prefetch' href='//s.w.org' />
@@ -33,11 +34,12 @@
 	 background: none !important;
 	 padding: 0 !important;
      }
+
     </style>
 
 
     <style type="text/css">
-     a { color: #57AD68; }
+     a { color: #5499C7; }
      #site-title a { color: ; }
      #site-title a:hover { color: ; }
      .wrapper { background: #F8F8F8; }
@@ -45,17 +47,17 @@
      #main-nav a, #main-nav a:hover,  #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: #fff; }
      .widget, article { background: #fff; }
      .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title  { color: #1b1e1f; }
-     a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: #439f55; }
-     #main-nav { background: #57ad68; border-color: #57ad68; }
-     #main-nav ul li ul, body { border-color: #439f55; }
-     #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: #439f55; }
-     #main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: #439f55; }
+     a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: #5499C7; }
+     #main-nav { background: #5499C7; border-color: #5499C7; }
+     #main-nav ul li ul, body { border-color: #5499C7; }
+     #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: #5499C7; }
+     #main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: #5499C7; }
      .entry-content { color: #1D1D1D; }
-     input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #57ad68; border-color: #57ad68 !important; }
-     ::selection { background: #57ad68; }
-     blockquote { border-color: #439f55; }
-     #controllers a:hover, #controllers a.active { color:  #439f55; }
-     input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: #439f55; border-color: #439f55; }
+     input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #5499C7; border-color: #5499C7 !important; }
+     ::selection { background: #5499C7; }
+     blockquote { border-color: #5499C7; }
+     #controllers a:hover, #controllers a.active { color:  #5499C7; }
+     input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: #5499C7; border-color: #5499C7; }
     </style>
     <style type="text/css" id="custom-background-css">
      body.custom-background { background-image: url("{{ .Site.BaseURL }}images/background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
