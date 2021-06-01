@@ -4,7 +4,7 @@ nodateline: true
 noprevnext: true
 disable_comments: true
 ---
-![fa-crown](/images/logolab1.png)
+![fa-crown](/images/logolab.png)
 
 ##### ***Modèle de présentation MIA***
 

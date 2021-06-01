@@ -1,5 +1,6 @@
 #baseURL = "http://localhost:8888/public"
 baseURL = "http://localhost:1313/miawebsite/public"
+
 title = "Laboratoire Mathématiques, Image et Applications"
 subtitle = "MIA Website"
 languageCode = "en-us"
@@ -14,7 +15,7 @@ canonifyURLs = true
     author = "MIA"
     site_description = "Bienvenue sur le site du laboratoire MIA"
     copyright  = "Copyright"
-     logo = "logolab.png"
+    logo = "images/logolab.png"
 
     title_in_logo = true # set to true if you want the title along with the logo
     disable_mathjax = true # set to true to disable MathJax
@@ -25,8 +26,6 @@ canonifyURLs = true
     # Add custom assets with their paths relative to the static folder
     custom_css = []
     custom_js  = []
-
-
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
@@ -77,7 +76,7 @@ canonifyURLs = true
     weight = 10
 
 [[menu.main]]
-    name  = "Seminaires"
+    name  = "Séminaires"
     url   = "/seminaires/"
     parent = "Production"
 
@@ -88,47 +87,13 @@ canonifyURLs = true
 
 [[menu.main]]
         name  = "Infos Pratiques"
-        url   = "/contact/"
+        url   = "http://localhost:1313/miawebsite/public/contact/"
         weight = 10
 
-
-        [[menu.main]]
+[[menu.main]]
                 name  = "Connexion à l'espace privé"
-                url   = "/connexion/connexion/"
+                url   = "http://localhost:80/miawebsite/public/connexion/"
                 weight = 11
-
-
-
-              [[menu.main]]
-                        name  = "Modèles et logo MIA"
-                        url   = "/modeles/"
-                        parent = "Connexion à l'espace privé"
-
-                [[menu.main]]
-                                name  = "Gestions des publications"
-                                url   = "/publications/"
-                                parent = "Connexion à l'espace privé"
-
-
-                [[menu.main]]
-                                name  = "Secrétariat"
-                                url   = "/secretariats/"
-                                parent = "Connexion à l'espace privé"
-
-                [[menu.main]]
-                                name  = "Bibliothèque-Base de données"
-                                url   = "/biblio/"
-                                parent = "Connexion à l'espace privé"
-
-                [[menu.main]]
-                                name  = "Ressources informatiques"
-                                url   = "/ressources/"
-                                parent = "Connexion à l'espace privé"
-
-                [[menu.main]]
-                                name  = "Gestion du site du MIA"
-                                url   = "/gestion_site/"
-                                parent = "Connexion à l'espace privé"
 
 [social]
 logo = "logouniv.png"
@@ -144,7 +109,6 @@ facebook        = "example"
     tags = true
     tag_cloud = true
     archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
-    search = true
     mailchimp = true
     mailchimpform = true
     author = true

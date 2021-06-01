@@ -6,6 +6,7 @@ noprevnext: true
 disable_comments: true
 
 ---
+
 ***Directrice***  
  {{< newtabref  href="https://pageperso.univ-lr.fr/cchoquet/" title="CHOQUET Catherine" >}}  
 Professeur  

@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
-  
+
 
 
 
 <head>
 
-    <title>Connexions - Laboratoire Mathématiques, Image et Applications </title>
-    
+    <title>Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford - Laboratoire Mathématiques, Image et Applications </title>
+
     <link rel='dns-prefetch' href='//s.w.org' />
     <meta charset="UTF-8" />
     <meta name="referrer" content="no-referrer">
@@ -16,7 +17,7 @@
     <link rel='stylesheet' id='embed_style-css'  href="http://localhost:1313/miawebsite/embed.min.css" type='text/css' media='all' />
     <link rel='stylesheet' id='google_font_ubuntu-css'  href="http://localhost:1313/miawebsite/style.min.css" type='text/css' media='all' />
     <link rel="shortcut icon" href="http://localhost:1313/miawebsite/favicon.ico" type="image/x-icon">
-    
+
     <script type="text/javascript">
      window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost:1313\/miawebsite\/js\/wp-emoji-release.min.js"}};
      !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -71,132 +72,314 @@
      }
     </style>
 
-    
-    
+
+
 </head>
 
   <body class="home blog logged-in admin-bar no-customize-support custom-background ">
+    <div class="wrapper">
+      <header id="branding" >
+	<div class="container clearfix">
+  <div class="hgroup-wrap clearfix">
 
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+
+	  <li class="facebook">
+<img src="http://localhost:1313/miawebsite/logouniv.png" class="floatRight"></img>
+	  </li>
+    <li class="github">
+<img src="http://localhost:1313/miawebsite/republique.png" class="floatRight"></img>
+    </li>
+
+
+      </div>
+    </section>
+
+
+    <hgroup id="site-logo" class="clearfix">
+      <h1 id="site-title">
+	<a href="http://localhost:1313/miawebsite/" rel="home">
+
+          <img src="http://localhost:1313/miawebsite/logolab.png"></img>
+
+
+	  <span class="site-title">Laboratoire Mathématiques, Image et Applications</span>
+
+	</a>
+      </h1>
+      <h2 id="site-description">Bienvenue sur le site du laboratoire MIA</h2>
+    </hgroup>
+
+  </div>
+</div>
+<style>
+.floatRight{
+ float:right;margin-right:30px;
+ height: 100px;
+  width: 50;}
+</style>
+
+
+<nav id="main-nav" class="clearfix">
+
+  <div class="container clearfix">
+    <ul class="root">
+
+
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/about/">Le MIA &raquo;</a>
+
+	          <ul class="sub-menu">
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/membres/">Membres
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/about/">Présentation
+	                  </a>
+
+	              </li>
+
+
+            </ul>
+
+        </li>
+
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/production/">Production &raquo;</a>
+
+	          <ul class="sub-menu">
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/demos/">Démos
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publis/">Pré-publis
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publications/">Publications
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/seminaires/">Seminaires
+	                  </a>
+
+	              </li>
+
+
+            </ul>
+
+        </li>
+
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/partenariats/">Partenariats</a>
+
+        </li>
+
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/contact/">Infos Pratiques</a>
+
+        </li>
+
+
+        <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+	          <a href="http://localhost:1313/miawebsite/connexion/">Connexion à l&#39;espace privé &raquo;</a>
+
+	          <ul class="sub-menu">
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/biblio/">Bibliothèque-Base de données
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/gestion_site/">Gestion du site du MIA
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/publications/">Gestions des publications
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/modeles/">Modèles et logo MIA
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/ressources/">Ressources informatiques
+	                  </a>
+
+	              </li>
+
+	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
+	                  <a href="http://localhost:1313/miawebsite/secretariats/">Secrétariat
+	                  </a>
+
+	              </li>
+
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+  </div>
+
+
+
+</nav>
 
       </header>
       <div id="main" class="container clearfix">
 	<div id="container">
-	  <div id="primary" class="no-margin-left">
-	    <div id="content">
-	      <section class="post type-post status-publish format-standard has-post-thumbnail hentry ">
-		
-		
-		<section id="main" class="post type-post status-publish format-standard has-post-thumbnail hentry">
-  <article>
-    
 
-    <header class="entry-header">
-    <a href="http://localhost:1313/miawebsite/connexion/connexion/">
+
+<div id="primary" class="no-margin-left">
+
+
+
+    <div id="content">
+	<section id="post" class="post type-post status-publish format-standard has-post-thumbnail hentry">
+	    <article>
+		<div class="article-inner">
+		    <header class="entry-header">
+    <a href="http://localhost:1313/miawebsite/correlation_phase_couleur/">
     <h2 class="entry-title" itemprop="name">
-        Connexion
+        Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford
     </h2>
     </a>
 </header>
 
-    <div class="article-entry entry-content clearfix" itemprop="articleBody">
-      <p>
-        
-        <br>
-      </p>
-    </div>
 
-    
-    
+
 <div class="entry-meta-bar clearfix">
   <div class="entry-meta">
-    
 
-    
 
-    
 
-    
-    
+
+
+
+
+
   </div>
-  
 
-      <span>
-    <a class="readmore" href="http://localhost:1313/miawebsite/connexion/connexion/">
-      En savoir plus
-    </a>
-  </span>
+
+
+
+		</div>
+		<div class="entry-content" itemprop="articleBody">
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bsnx0tuSVTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<p>More details will be found in :</p>
+<p>&ldquo;Color object recognition based on clifford fourier transform.&rdquo;, J. Mennesson, C. Saint-Jean, and L. Mascarilla, In Guide to Geometric Algebra in Practice. Springer, 2011</p>
+<p>Code implementation <a href="http://mia.univ-larochelle.fr/images/stories/clifford_fourier_transform.xls" rel="noopener" target="_blank"> [clifford_fourier_transform]</a>
+ :</p>
+<ul>
+<li>
+<p>Clifford Fourier transform for color images</p>
+</li>
+<li>
+<p>Inverse Clifford Fourier transform for color images</p>
+</li>
+</ul>
+
+
+		</div>
+
+
+
+	    </article>
+
+
+	</section>
+
+    </div>
+
 
 </div>
 
-
-  </article>
-</section>
-
-		
-	      </section>
-	      
-<ul class="default-wp-page clearfix">
-  
-</ul>
-
-	    </div>
-	  </div>
-	</div>
-	
 <div id="secondary">
-    
+
 <aside id="rpwe_widget-3" class="widget rpwe_widget">
     <h3 class="widget-title">
         Publications Récentes
     </h3>
     <div class="rpwe-block">
         <ul class=" rpwe-ul">
-            
+
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="" class="thumbnail">
                     <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_2/" class="thumbnail">
-		    
-                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_2.jpg" alt="Connexions">
-		    
+
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_2.jpg" alt="Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford">
+
                 </a>
- 
+
                 <h3 class="rpwe-title">
 		    <a href="http://localhost:1313/miawebsite/post/article_2/" title="Permalink to Suivi d&#39;objets deformables par filtres particulaires utilisant le mouvement et la couleur" >Suivi d&#39;objets deformables par filtres particulaires utilisant le mouvement et la couleur</a>
 		</h3>
-    
-            
+
+
             </li>
-            
+
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="" class="thumbnail">
                     <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_1/" class="thumbnail">
-		    
-                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_1.jpg" alt="Connexions">
-		    
+
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_1.jpg" alt="Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford">
+
                 </a>
- 
+
                 <h3 class="rpwe-title">
 		    <a href="http://localhost:1313/miawebsite/post/article_1/" title="Permalink to Segmentation couleur multi-échelle des objets verts utilisant le signal monogène couleur" >Segmentation couleur multi-échelle des objets verts utilisant le signal monogène couleur</a>
 		</h3>
-    
-            
+
+
             </li>
-            
+
             <li class="rpwe-il rpwe-classfix">
                 <a class="rpwe-img" href="" class="thumbnail">
                     <a class="rpwe-img1" href="http://localhost:1313/miawebsite/post/article_3/" class="thumbnail">
-		    
-                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_3.jpg" alt="Connexions">
-		    
+
+                    <img class="rpwe-alignleft rpwe-thumb" src="http://localhost:1313/miawebsite/banners/article_3.jpg" alt="Une corrélation de phase pour les images couleur basée sur la transformée de Fourier Clifford">
+
                 </a>
- 
+
                 <h3 class="rpwe-title">
 		    <a href="http://localhost:1313/miawebsite/post/article_3/" title="Permalink to Sélection de classes par similarité de degré de typicalité" >Sélection de classes par similarité de degré de typicalité</a>
 		</h3>
-    
-            
+
+
             </li>
-            
+
 
 
 
@@ -214,9 +397,9 @@
 
 
 
-    
 
-    
+
+
 <SCRIPT LANGUAGE="JavaScript">
 
 <!-- Begin
@@ -255,7 +438,7 @@ Password:
 <input type=button value="Login!" onClick="Login(this.form)" name="button">
 </form>
 
-    
+
 
 <aside id="search-3" class="widget widget_search">
   <form method="get" action="https://duckduckgo.com/">
@@ -273,13 +456,16 @@ Password:
 
 
 
-    
 
-    
+
+
 
 
 
 </div>
+
+
+
 
 
       </div>
@@ -318,9 +504,9 @@ Password:
 
 <script type='text/javascript' src="http://localhost:1313/miawebsitejs/jquery.cycle.all.min.js" id='jquery_cycle-js'></script>
 <script type='text/javascript'>
-  
+
  var travelify_slider_value = {"transition_effect":"fade","transition_delay":"4000","transition_duration":"1000"};
-  
+
 </script>
 <script type='text/javascript' src="http://localhost:1313/miawebsitejs/slider-settings.min.js" id='travelify_slider-js'></script>
 <script type='text/javascript' src="http://localhost:1313/miawebsitejs/wp-embed.min.js" id='wp-embed-js'></script>
@@ -334,7 +520,7 @@ Password:
      request = true;
 
      b[c] = b[c].replace( rcs, ' ' );
-     
+
      b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
  }());
 </script>

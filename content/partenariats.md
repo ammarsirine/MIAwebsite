@@ -4,6 +4,7 @@ nodateline: true
 noprevnext: true
 disable_comments: true
 ---
+
 ***Fiches de compétences :***  
 {{< newtabref  href="http://mia.univ-larochelle.fr/images/stories/partenariats/2015labomia.pdf" title="Flyer" >}}  
 {{< newtabref  href="http://mia.univ-larochelle.fr/images/stories/competences/compet1.pdf" title="Traitement et analyse d'images, de vidéos et de données.">}}
@@ -18,8 +19,8 @@ Le MIA est membre de la fédération de recherche CNRS MIRES (Mathématiques et 
 - Agence pour les mathématiques en interaction avec l'entreprise et la société {{< newtabref  href="https://www.agence-maths-entreprises.fr/public/pages/index.html" title="AMIES">}}  
 - Réseau Thématique Pluridisciplinaire Mathématiques et Décision pour le Développement Durable {{< newtabref  href="https://www.reseau-m3d.fr/" title="RTP M3D">}}    
 - Fédération de Recherche en Environnement et Développement Durable, FR CNRS 3097 {{< newtabref  href="http://fredd.pres-lpc.fr/" title="FREDD">}}
-- Contrat de Projets État Région {{< newtabref  href="http://localhost:1313/cper/" title="CPER">}}
-- Agence Nationale de la Recherche {{< newtabref  href="http://localhost:1313/anr/" title="ANR">}}
+- Contrat de Projets État Région {{< newtabref  href="http://localhost:1313/miawebsite/public/cper/" title="CPER">}}
+- Agence Nationale de la Recherche {{< newtabref  href="http://localhost:1313/miawebsite/public/anr/" title="ANR">}}
 - GDRs {{< newtabref  href="http://gdr-isis.fr/" title="ISIS">}}, {{< newtabref  href="http://gdr-mia.math.cnrs.fr/" title="MIA">}} et MoMaS
 - {{< newtabref  href="https://www.sfere.fr/" title="SFERE">}}
 
@@ -37,7 +38,7 @@ Le MIA est membre de la fédération de recherche CNRS MIRES (Mathématiques et 
 
 Le MIA valorise ses résultats de recherche amont en partenariat avec des industriels (partenariat avec des PME locales ou consortium de recherche avec de grands groupes internationaux). Des sessions de formation aux outils d'analyse numérique sont également organisées.
 
-- {{< newtabref  href="https://www.gouvernement.fr/secretariat-general-pour-l-investissement-sgpi" title="Investissement d'Avenir">}}   https://www.eurekanetwork.org/
+- {{< newtabref  href="https://www.gouvernement.fr/secretariat-general-pour-l-investissement-sgpi" title="Investissement d'Avenir">}}
 - {{< newtabref  href="https://www.eurekanetwork.org/" title="EUREKA">}}  Cluster programme supporting innovative, industry-driven, pre-competitive R&D projects in the area of Software-intensive Systems & Services
 
 ***Contrats en cours :***

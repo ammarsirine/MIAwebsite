@@ -1,5 +1,12 @@
+---
+title: Infos Pratiques
+nodateline: true
+noprevnext: true
+disable_comments: true
+---
+#### Roselyne Angeville
 
-# Roselyne Angeville
+
 Secrétariat Laboratoire MIA
 
 ![fa-crown](/images/image.jpg)
@@ -15,8 +22,6 @@ Secrétariat Laboratoire MIA
 
 
  {{< form-contact action="your website here" >}}
-
-
 
 
 ![fa-crown](/images/email.PNG) Email:roselyne.angeville@univ-lr.fr  

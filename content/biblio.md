@@ -1,7 +1,9 @@
-
-
-### Bilbliothèque - Bases de données - Impact factor [![homepage](/images/edit_icon.png)](http://localhost:8080/edit.php)
-
+---
+title: Bilbliothèque - Bases de données - Impact factor 
+nodateline: true
+noprevnext: true
+disable_comments: true
+---
 - ***Liste des ouvrages de la bibliothèque Dpt Math/MIA***
 
 Télécharger le fichier à jour des ouvrages disponibles {{< newtabref  href="http://mia.univ-larochelle.fr/images/stories/bibliotheque_au_08-01-09.xls" title="ICI">}}

@@ -64,7 +64,7 @@ Vous pouvez modifier ce comportement en commentant la ligne de commande dans vot
 
 Si vous avez besoin des droits d'administration (pour installer un package, modifier smb.conf, restreindre les droits d'accès ssh, etc...), il faut vous logger en ssh avec le compte root. Pour trust, # ssh sys@trust et pour athol, #ssh root@athol
 
-Pour obtenir le mot de passe, demandez le par mail à cette adresse: sing [cguyon03@univ-lr.fr](cguyon03@univ-lr.fr)
+Pour obtenir le mot de passe, demandez le par mail à cette adresse: <a href="mailto:cguyon03@univ-lr.fr">cguyon03@univ-lr.fr</a> 
 
 ***Information pour les administrateurs***
 
