@@ -28,18 +28,7 @@
 
 [social]
     facebook = "Follow us on Facebook"
-    twitter = "Follow us on Twitter"
-    RSS = "Subscribe to our feed"
-    googleplus = "Follow us on Google Plus"
-    pinterest = "Follow us on Pinterest"
-    linkedin = "Follow us on LinkedIn"
-    tumblr = "Follow us on Tumblr"
-    vimeo = "Follow us on Vimeo"
-    instagram = "Follow us on Instagram"
-    flickr = "Follow us on Flickr"
-    youtube = "Follow us on YouTube"
     github = "Follow us on GitHub"
-    email = "Email us"
 
 [share]
 	facebook = "Share"
@@ -59,9 +48,6 @@
     title = "Tag cloud"
     min_count = 2  # If you have many posts, then tag with just one topic makes the tag cloud cluttered. This variable can help reduce the clutter.
 
-[widgets.mailchimp]
-    title = "Connexion à l'espace privé"
-    subscribe_text = "Connectez-vous pour avoir accès à l'espace privé du site du MIA"
 
 [widgets.tags]
     title = "Tags"
