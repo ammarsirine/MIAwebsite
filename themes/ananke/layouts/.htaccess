@@ -1,7 +1,0 @@
-RedirectPermanent miawebsite/public/connexion/ http://localhost:1313/miawebsite/public/connexion/
-     AuthType Basic
-     AuthUserFile "/xampp/htdocs/MIAwebsite/themes/ananke/layouts/partials/.htpasswd"
-
-<Limit GET POST>
-     Require valid-user
-</Limit>

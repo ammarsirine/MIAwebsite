@@ -24,11 +24,10 @@ Secrétariat Laboratoire MIA
  {{< form-contact action="your website here" >}}
 
 
-![fa-crown](/images/email.PNG) Email:roselyne.angeville@univ-lr.fr  
 ![fa-crown](/images/phone.PNG)	33(0) 5 46 45 82 29  
 ![fa-crown](/images/fax.PNG)	33(0) 5 46 45 82 40  
 
-![fa-crown](/images/website.PNG) http://www.univ-larochelle.fr
+![fa-crown](/images/website.PNG) {{< newtabref  href="https://www.univ-larochelle.fr/" title="https://www.univ-larochelle.fr/">}}
 
 ***Pour venir au MIA***  
 {{< newtabref  href="https://www.google.fr/maps/place/La+Rochelle/@46.1620346,-1.2463008,12z/data=!3m1!4b1!4m5!3m4!1s0x48015383c9253d75:0x405d39260ee9640!8m2!3d46.160329!4d-1.151139" title="Plan de La Rochelle">}}  

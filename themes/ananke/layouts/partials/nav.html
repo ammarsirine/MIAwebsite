@@ -1,14 +1,15 @@
+
 <nav id="main-nav" class="clearfix">
+
   <div class="container clearfix">
     <ul class="root">
         {{ $rel := $.Page.RelPermalink }}
         {{ range .Site.Menus.main.ByWeight }}
+
         <li class="menu-item menu-item-type-post_type menu-item-object-page {{ if eq $rel .URL }}active{{end}}">
 	          <a href="{{ .URL }}">{{ .Name }}{{ if .HasChildren }} &raquo;{{ end }}</a>
 
-
-
-			  {{ if or (eq .Name "Le MIA") (eq .Name "Production") }}
+              {{ if or (eq .Name "Le MIA") (eq .Name "Production") }}
               <ul class="sub-menu">
   	              {{ range .Children }}
   	              <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children">
@@ -28,9 +29,18 @@
   	              {{ end }}
 
               </ul>
+
+
+
                {{ end }}
+
+
         </li>
-		{{ end }}
+        {{ end }}
     </ul>
+
   </div><!-- .container -->
+
+
+
 </nav><!-- #main-nav -->

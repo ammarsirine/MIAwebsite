@@ -1,5 +1,5 @@
 ---
-title: Bilbliothèque - Bases de données - Impact factor 
+title: Bilbliothèque - Bases de données - Impact factor
 nodateline: true
 noprevnext: true
 disable_comments: true
